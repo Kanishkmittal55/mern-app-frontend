@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/tickets/";
+const API_URL = "https://mern-task-app-api-d5py.onrender.com/tickets/";
 
 // Get ticket Notes
 const getNotes = async (ticketId, token) => {
